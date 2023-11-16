@@ -1,0 +1,12 @@
+.dockerignore
+__pycache__
+.git
+Dockerfile
+.idea
+venv
+.pytest_cache
+body.jpg
+README.md
+pyproject.toml
+poetry.lock
+LICENSE

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "webapp"
+version = "0.1.0"
+description = ""
+authors = ["Евгений Клюев <kluev.evga@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = {extras = ["all"], version = "^0.104.1"}
+tinydb = "^4.8.0"
+pytest = "^7.4.3"
+pytest-asyncio = "^0.21.1"
+httpx = "^0.25.1"
+faker = "^20.0.3"
+opencv-python-headless = "^4.8.1.78"
+qrcode = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
